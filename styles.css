@@ -1,10 +1,12 @@
 section{
   display: flex;
-  flex-flor: row wrap;
+  flex-flow: row wrap;
   background-color: blue;
 }
 
 article{
   background-color: white;
+  gap:10px;
+  border: solid black 2px;
   max-width: 33vw;
 }
